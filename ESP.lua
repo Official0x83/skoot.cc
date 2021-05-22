@@ -138,7 +138,7 @@ Esp.Add = function(plr, root, col)
 				Holder.Health.Size = v2new(1.5, BoxSize.Y * Health)
 				Holder.Health.Position = v2new(Pos.X - (BoxSize.X / 2 + 4), (Pos.Y - BoxSize.Y / 2) + ((1 - Health) * BoxSize.Y))
 
-				Holder.HealthBack.Size = v2new(1.7, (BoxSize.Y * 100) + 2)
+				Holder.HealthBack.Size = v2new(1.7, BoxSize.Y)
 				Holder.HealthBack.Position = v2new(Pos.X - (BoxSize.X / 2 + 4) - 1, (Pos.Y - BoxSize.Y / 2) + ((1 - Health) * BoxSize.Y) - 1)
 
 				Holder.Distance.Text = math.floor((root.Position - Camera.CFrame.Position).Magnitude) .. " Studs"
