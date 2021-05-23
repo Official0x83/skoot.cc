@@ -1,3 +1,5 @@
+--> https://raw.githubusercontent.com/Official0x83/skoot.cc/main/UI%20Library.lua
+
 -- ui lib
 local Library = {}
 
@@ -204,7 +206,7 @@ function Library:CreateWindow(title, color)
         tab.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
         tab.BorderColor3 = Color3.fromRGB(35, 35, 35)
         tab.BorderSizePixel = 0
-        tab.Size = UDim2.new(0, tabbar.AbsoluteSize.X / (#tabbar:GetChildren() - 1), 0, 25)
+        tab.Size = UDim2.new(0, tabbar.AbsoluteSize.X / (#tabbar:GetChildren() - 1), 0, 15)
         tab.Font = Enum.Font.SourceSans
         tab.Text = ""
         tab.TextColor3 = Color3.fromRGB(255, 255, 255)
